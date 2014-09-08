@@ -1,0 +1,23 @@
+{
+  "name": "polymer-themes",
+  "version": "0.2.0",
+  "homepage": "http://polymerthemes.com/",
+  "authors": [
+    "team@polymerthemes.com"
+  ],
+  "description": "Free Polymer Themes and Templates",
+  "keywords": [
+    "Polymer",
+    "Web",
+    "Components",
+    "Themes",
+    "Templates"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*"
+  ],
+  "devDependencies": {
+    "polymer": "Polymer/polymer#~0.3.5"
+  }
+}
