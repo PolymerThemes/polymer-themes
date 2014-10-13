@@ -1,6 +1,6 @@
 {
   "name": "polymer-themes",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "http://polymerthemes.com/",
   "authors": [
     "team@polymerthemes.com"
@@ -18,6 +18,6 @@
     "**/.*"
   ],
   "devDependencies": {
-    "polymer": "Polymer/polymer#~0.3.5"
+    "polymer": "Polymer/polymer#~0.4.2"
   }
 }
