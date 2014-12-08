@@ -9,7 +9,7 @@
  * Compatible with Polymer 0.5.1
  */
 html {
-  font-family: 'Oxgygen', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font-weight: 400;
@@ -143,6 +143,10 @@ html /deep/ #ripple,
 html::shadow #ripple,
 html /deep/::shadow #ripple {
   color: #afc5dc;
+}
+html [autofocus],
+html /deep/ [autofocus] {
+  color: #446e9b;
 }
 html paper-button,
 html /deep/ paper-button {
@@ -511,13 +515,18 @@ html .card,
 html /deep/ .card {
   background: #fff;
 }
-html paper-menu-button paper-item,
-html /deep/ paper-menu-button paper-item {
+html paper-item,
+html /deep/ paper-item {
+  background-color: #d3d3d3;
   color: #777;
 }
-html paper-menu-button paper-item:hover,
-html /deep/ paper-menu-button paper-item:hover {
+html paper-item:hover,
+html /deep/ paper-item:hover {
   background-color: #e7e7e7;
+}
+html paper-item.core-selected,
+html /deep/ paper-item.core-selected {
+  background-color: #dcdcdc;
 }
 html paper-dropdown::shadow #background,
 html /deep/ paper-dropdown::shadow #background {
@@ -608,4 +617,8 @@ html /deep/ paper-slider::shadow #sliderKnobInner::before {
 html paper-icon-button[disabled]::shadow core-icon,
 html /deep/ paper-icon-button[disabled]::shadow core-icon {
   color: #afb1b9 !important;
+}
+html paper-spinner:not([default-spinner])::shadow .circle,
+html /deep/ paper-spinner:not([default-spinner])::shadow .circle {
+  border-color: #446e9b;
 }

@@ -144,6 +144,10 @@ html::shadow #ripple,
 html /deep/::shadow #ripple {
   color: #a7d6d7;
 }
+html [autofocus],
+html /deep/ [autofocus] {
+  color: #3b8183;
+}
 html paper-button,
 html /deep/ paper-button {
   margin: 2px;
@@ -511,13 +515,18 @@ html .card,
 html /deep/ .card {
   background: #212121;
 }
-html paper-menu-button paper-item,
-html /deep/ paper-menu-button paper-item {
+html paper-item,
+html /deep/ paper-item {
+  background-color: #373e3e;
   color: #fff;
 }
-html paper-menu-button paper-item:hover,
-html /deep/ paper-menu-button paper-item:hover {
+html paper-item:hover,
+html /deep/ paper-item:hover {
   background-color: #424b4b;
+}
+html paper-item.core-selected,
+html /deep/ paper-item.core-selected {
+  background-color: #5c6868;
 }
 html paper-dropdown::shadow #background,
 html /deep/ paper-dropdown::shadow #background {
@@ -608,6 +617,10 @@ html /deep/ paper-slider::shadow #sliderKnobInner::before {
 html paper-icon-button[disabled]::shadow core-icon,
 html /deep/ paper-icon-button[disabled]::shadow core-icon {
   color: #4e5151 !important;
+}
+html paper-spinner:not([default-spinner])::shadow .circle,
+html /deep/ paper-spinner:not([default-spinner])::shadow .circle {
+  border-color: #3b8183;
 }
 html /deep/ h1,
 html /deep/ h3,

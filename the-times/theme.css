@@ -25,7 +25,7 @@ body {
 }
 html .font-special,
 html /deep/ .font-special {
-  font-family: 'Oxgygen', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 html core-header-panel,
 html /deep/ core-header-panel {
@@ -103,7 +103,7 @@ html h3,
 html /deep/ h3,
 html h5,
 html /deep/ h5 {
-  font-family: 'Oxgygen', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 html h1,
 html /deep/ h1 {
@@ -143,6 +143,10 @@ html /deep/ #ripple,
 html::shadow #ripple,
 html /deep/::shadow #ripple {
   color: #a3a3a3;
+}
+html [autofocus],
+html /deep/ [autofocus] {
+  color: #191919;
 }
 html paper-button,
 html /deep/ paper-button {
@@ -511,13 +515,18 @@ html .card,
 html /deep/ .card {
   background: #fff;
 }
-html paper-menu-button paper-item,
-html /deep/ paper-menu-button paper-item {
+html paper-item,
+html /deep/ paper-item {
+  background-color: #3b3b3b;
   color: #fff;
 }
-html paper-menu-button paper-item:hover,
-html /deep/ paper-menu-button paper-item:hover {
+html paper-item:hover,
+html /deep/ paper-item:hover {
   background-color: #191919;
+}
+html paper-item.core-selected,
+html /deep/ paper-item.core-selected {
+  background-color: #626262;
 }
 html paper-dropdown::shadow #background,
 html /deep/ paper-dropdown::shadow #background {
@@ -608,4 +617,8 @@ html /deep/ paper-slider::shadow #sliderKnobInner::before {
 html paper-icon-button[disabled]::shadow core-icon,
 html /deep/ paper-icon-button[disabled]::shadow core-icon {
   color: #afb1b9 !important;
+}
+html paper-spinner:not([default-spinner])::shadow .circle,
+html /deep/ paper-spinner:not([default-spinner])::shadow .circle {
+  border-color: #191919;
 }
